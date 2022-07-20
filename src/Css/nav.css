@@ -1,0 +1,114 @@
+
+
+body{
+  background: black;
+  color: white;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  /* font-family: sans-serif; */
+}
+/* header{
+  display: sticky;
+  top:0;
+  justify-content: center;
+text-align: justify;
+align-items: center;
+} */
+.Logo{
+width: 10vw;
+height: 10vh;
+margin-top: 1%;
+margin-left: 3%;
+}
+
+.tabs {
+text-decoration: none;
+color: #7B2BBA;
+font-size: 1.2rem;
+font-weight: bold;
+/* text-transform: uppercase; */
+
+}
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+}
+
+.hamburger {
+padding-right: 20px;
+cursor: pointer;
+}
+
+.hamburger .line {
+display: block;
+width: 40px;
+height: 5px;
+margin-bottom: 10px;
+background-color:#7B2BBA;
+border-radius: 100vw;
+}
+
+.nav__link {
+position: fixed;
+width: 94%;
+top: 5rem;
+left: 18px;
+/* background-color: lightblue; */
+}
+
+.nav__link a {
+display: block;
+text-align: center;
+padding: 10px 0;
+}
+
+.nav__link a:hover {
+text-decoration: none;
+border-bottom: 3px solid #7B2BBA;
+border-radius: 7px;
+transition: all 0.2s ease;
+}
+
+.hide {
+display: none;
+}
+.content{
+display: flex;
+justify-content: center;
+text-align: justify;
+align-items: center;
+margin-top: 20%;
+color: rgb(17, 19, 19);
+font-weight: 700;
+font-size: 20px;
+
+font-family: sans-serif;
+}
+@media screen and (min-width: 1000px) {
+.nav__link {
+  display: block;
+  position: static;
+  width: auto;
+  margin-right: 20px;
+  background: none;
+
+
+}
+
+.nav__link a {
+  display: inline-block;
+  padding: 15px 20px;
+
+
+}
+
+.hamburger {
+  display: none;
+}
+.content{
+  display: block;
+  text-align: center;
+  margin-left: 15px;
+}
+}

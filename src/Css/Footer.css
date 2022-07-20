@@ -1,0 +1,27 @@
+.footer-icons{
+    width: 24px;
+    height:24px;
+    padding: 20px;
+}
+.text_muted{
+    text-decoration: none;
+   
+}
+li{
+    list-style: none;
+}
+footer{
+
+    padding-inline-start: 10%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.footer{
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}

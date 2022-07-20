@@ -1,0 +1,16 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #7B2BBA;
+}
+
+.portfolio-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw 7vw 5vw 7vw;
+}
