@@ -5,7 +5,7 @@
     justify-content: space-between;
     /* grid-template-columns: 40% 60%; */
     /* gap: 1vw; */
-   
+   padding-top: 11vh;
     padding-left: 5vw;
     padding-right: 5vw;
     padding-bottom: 5vw;
@@ -32,9 +32,10 @@
 }
   .button{
     background: #7B2BBA;
-    width: 150px;
-    padding: 4px 0;
-    
+    width: 175px;
+   height: 65px;
+   justify-content: center;
+    text-align: center;
     /* position: absolute;
     left: 50%;
     top: 50%; */
@@ -42,12 +43,17 @@
     border-radius: 5px;
  
   }
-  .button p{
-   
-        text-align: center;
+  .button a{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-size: max(1.3vw,16px);
+
+        text-decoration: none;
         text-transform: uppercase;
-      color: #FFF;
-      user-select: none;
+        color: #FFF;
+        user-select: none;
    
   }
   .Home-image{
@@ -56,9 +62,9 @@
   .Home-image > img{
 width:60vw;
 height: 60vh;
-border-radius: 50%;
-padding-top: 5vw;
-padding-bottom: 5vw;
+
+margin: 5vw;
+margin-bottom: 5vw;
 transform: rotateY(-10deg);
 object-fit: contain;
 z-index: 100;

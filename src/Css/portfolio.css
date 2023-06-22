@@ -4,13 +4,23 @@
     align-items: center;
     justify-content: center;
     color: #7B2BBA;
+    padding-bottom: 5vw;
+    
 }
 
-.portfolio-wrap{
+/* .portfolio-wrap{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     padding: 5vw 7vw 5vw 7vw;
+} */
+
+.portfolio-wrap{
+    display: flex;
+   padding: 5% 0 5% 0;
+    margin-left: 5vw;
+    width: 90vw;
+    overflow-x: scroll;
 }

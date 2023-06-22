@@ -9,8 +9,9 @@ import CSS from "../images/CSS.png"
 import Fees from "../images/Fees.png"
 import Github from '../images/github.svg'
 import Npm from "../images/npm.svg"
-import Api from "../images/API.png"
-import JSON from "../images/json-file.svg"
+import SAPHANA from '../images/SAP HANA.svg'
+import Tableau from "../images/tableau.svg"
+import VScode from '../images/VScode.svg'
 import MUI from "../images/MUI.svg"
 import Android_Studio from '../images/Android_studio.svg'
 
@@ -49,36 +50,37 @@ function services() {
                     </div>
                 </div>
                 <div className="text">
-        <h3>TOOLS I KNOW</h3>
-        <p>These are the Tools which I have knowledge<br/> on or have used in the past.
+                <h3>SKILLS</h3>
+        <p>These are the programming languages<br/> i have used in the past and have knowledge on
+      
         </p>
+       
     </div>
             </div>
             <div className='jaffa jaffa2'>
             <div className="text">
-        <h3>SKILLS</h3>
-        <p>These are the programming languages<br/> i have used in the past and have knowledge on
-      
+            <h3>TOOLS I KNOW</h3>
+        <p>These are the Tools which I have knowledge<br/> on or have used in the past.
         </p>
     </div>
     
     <div className="flex-3d">
         <div className="grid-items">
-        <a href="javascript:void(0)" aria-label="JSON" className="Grid-item" > 
-                            <img src={JSON} alt="Hello"/>    
+        <a href="javascript:void(0)" aria-label="Tableau" className="Grid-item" > 
+                            <img src={Tableau} alt="Hello"/>    
                         </a>
             
                         <a href="javascript:void(0)" aria-label="NPM" className="Grid-item" > 
-                            <img src={Npm} alt="Namaste"/>    
+                            <img src={SAPHANA} alt="Namaste"/>    
                         </a>
-                        <a href="javascript:void(0)" aria-label="API" className="Grid-item"> 
-                             <img src={Api} alt="Namaste"/>    
+                        <a href="javascript:void(0)" aria-label="VScode" className="Grid-item"> 
+                             <img src={VScode} alt="Namaste"/>    
                          </a>
                         <a href="javascript:void(0)" aria-label="Anti Slippage" className="Grid-item" > 
                      <img src={MUI}alt="Namaste"/>    
                          </a>
            
-                       <a href="javascript:void(0)" aria-label="Synthatic curve" className="Grid-item"> 
+                       <a href="javascript:void(0)" aria-label="Figma" className="Grid-item"> 
                          <img src={FIGMA} alt="Namaste"/>    
                       </a>
                       <a href="javascript:void(0)" aria-label="GitHub" className="Grid-item"> 

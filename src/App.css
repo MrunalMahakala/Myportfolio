@@ -22,18 +22,19 @@ picture {
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar-track{
-  background-color: rgb(48, 48, 49);
+  /* background-color: rgb(48, 48, 49); */
   /* border-radius: 100vw; */
 }
 ::-webkit-scrollbar-thumb{
-  background-color: rgb(70, 70, 71);
+  /* background-color: rgb(70, 70, 71); */
+background-color: #7B2BBA;
   margin: 10%;
   border-radius: 100vw;
-  border: 0.25em solid rgb(48, 48, 49);
+  border: 0.25em solid black;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background-color:  rgb(102, 102, 104) ;
-  border: 0.25em solid rgb(48, 48, 49);
+  background-color:  #a23cef ;
+  border: 0.25em solid black;
 }
 /* ::-webkit-scrollbar-corner{
   border-radius: 50%;

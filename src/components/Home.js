@@ -8,10 +8,10 @@ function Home() {
     <div className="Home-text">
         <h3>Hello!</h3>
         <h1>I'm <span>Mrunal Mahakala</span></h1>
-        <p> A <span>Front-end developer</span> from Karimnagar.<br/>I love creating web applications with React,<br/>and I'm currently studying NodeJS.
+        <p> A <span>Front-end developer </span> from Karimnagar.<br/>I love creating web applications with React,<br/>and I'm currently Pursuing Master's in <span>Data Analytics.</span> 
         </p>
         <div className="button">
-             <p>Contact me</p>
+             <a href='#contact'>Contact me</a>
         </div>
     </div>
     <div className="Home-image">

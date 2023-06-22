@@ -4,7 +4,7 @@ body{
   background: black;
   color: white;
   font-family: 'M PLUS Rounded 1c', sans-serif;
-  /* font-family: sans-serif; */
+ 
 }
 /* header{
   display: sticky;
@@ -15,17 +15,105 @@ align-items: center;
 } */
 .Logo{
 width: 10vw;
-height: 10vh;
+height: 7vh;
 margin-top: 1%;
 margin-left: 3%;
 }
+
+
+
+
+
+
+/* nav.css */
+/* ... existing styles ... */
+
+/* Add styles for the dynamic island navigation bar */
+/* .nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  background-color: #000;
+  z-index: 999;
+}
+
+
+.hamburger {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-bottom: 4px;
+  background-color: #7B2BBA;
+  border-radius: 2px;
+}
+
+.hamburger.active span {
+  background-color: #fff;
+}
+
+.nav__link {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.nav__link.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav__link a {
+  text-decoration: none;
+  color: #7B2BBA;
+  font-size: 16px;
+  margin-bottom: 10px;
+  transition: color 0.2s ease;
+}
+
+.nav__link a:hover {
+  color: #fff;
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
 
 .tabs {
 text-decoration: none;
 color: #7B2BBA;
 font-size: 1.2rem;
 font-weight: bold;
-/* text-transform: uppercase; */
+
 
 }
 .nav {
@@ -54,7 +142,7 @@ position: fixed;
 width: 94%;
 top: 5rem;
 left: 18px;
-/* background-color: lightblue; */
+
 }
 
 .nav__link a {
