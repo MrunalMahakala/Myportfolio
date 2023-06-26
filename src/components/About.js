@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../Css/About.css'
 import ME from '../images/vint portarit.jpg'
 function About() {

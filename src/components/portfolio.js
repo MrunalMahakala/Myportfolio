@@ -10,6 +10,11 @@ function Portfolio() {
     <div id="portfolio" className='portfolio'>
     
         <h1>Portfolio</h1>
+        <div className='toggle_wrap'>
+            <div className='toggle_bar'>
+                  
+            </div>
+        </div>
       
         <div className='portfolio-wrap'>
         <Projects img={Netflix_mockup} name="Netflix clone" demo="https://netflix-smallclone.netlify.app/"/>

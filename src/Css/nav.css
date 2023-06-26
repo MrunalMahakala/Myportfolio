@@ -1,10 +1,9 @@
 
-
 body{
   background: black;
   color: white;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
- 
+  font-family:'Roboto';
+  /* font-family: sans-serif; */
 }
 /* header{
   display: sticky;
@@ -14,113 +13,25 @@ text-align: justify;
 align-items: center;
 } */
 .Logo{
-width: 10vw;
-height: 7vh;
+width: 13vw;
+height: 13vh;
 margin-top: 1%;
 margin-left: 3%;
 }
-
-
-
-
-
-
-/* nav.css */
-/* ... existing styles ... */
-
-/* Add styles for the dynamic island navigation bar */
-/* .nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 10vh;
-  background-color: #000;
-  z-index: 999;
-}
-
-
-.hamburger {
-  position: absolute;
-  top: 50%;
-  right: 15px;
-  transform: translateY(-50%);
-  width: 30px;
-  height: 20px;
-  cursor: pointer;
-}
-
-.hamburger span {
-  display: block;
-  width: 100%;
-  height: 2px;
-  margin-bottom: 4px;
-  background-color: #7B2BBA;
-  border-radius: 2px;
-}
-
-.hamburger.active span {
-  background-color: #fff;
-}
-
-.nav__link {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-  background-color: #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 10px;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.3s ease;
-}
-
-.nav__link.show {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.nav__link a {
-  text-decoration: none;
-  color: #7B2BBA;
-  font-size: 16px;
-  margin-bottom: 10px;
-  transition: color 0.2s ease;
-}
-
-.nav__link a:hover {
-  color: #fff;
-}
-
- */
-
-
-
-
-
-
-
-
-
-
-
 
 .tabs {
 text-decoration: none;
 color: #7B2BBA;
 font-size: 1.2rem;
 font-weight: bold;
-
-
+/* text-transform: uppercase; */
+cursor: pointer;
 }
 .nav {
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding-top: 20px;
+/* padding-top: 20px; */
 }
 
 .hamburger {
@@ -138,24 +49,26 @@ border-radius: 100vw;
 }
 
 .nav__link {
-position: fixed;
+position:static;
 width: 94%;
-top: 5rem;
-left: 18px;
 
+/* background-color: lightblue; */
 }
 
 .nav__link a {
-display: block;
+/* display: block; */
 text-align: center;
 padding: 10px 0;
+top: 5rem;
+left: 18px;
 }
 
 .nav__link a:hover {
 text-decoration: none;
-border-bottom: 3px solid #7B2BBA;
-border-radius: 7px;
-transition: all 0.2s ease;
+border-bottom: 2px solid #9b62c7;
+color: #c38bee;
+/* border-radius: 5px; */
+/* transition: all 0.6s ease; */
 }
 
 .hide {
@@ -185,10 +98,7 @@ font-family: sans-serif;
 }
 
 .nav__link a {
-  display: inline-block;
-  padding: 15px 20px;
-
-
+  margin-right: 20px;
 }
 
 .hamburger {

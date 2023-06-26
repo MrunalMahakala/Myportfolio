@@ -54,48 +54,6 @@ function Contact() {
                                 </form>
                             </div>
                         </div>
-                        {/* <div class="col-md-6 d-flex align-items-stretch">
-                            <div class="info-wrap w-100 p-md-5 p-4 py-5 img">
-                                <h3>Contact information</h3>
-                                <p class="mb-4">We're open for any suggestion or just to have a chat</p>
-                        <div class="dbox w-100 d-flex align-items-start">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                              
-                                <FaAddressCard className='icons-contact'/>
-                            </div>
-                            <div class="text pl-3">
-                            <p><span>Address:</span><p>9-1-294/6,flat no:202,<br/>bagathnagar,karimnagar,505001</p> </p>
-                          </div>
-                      </div>
-                        <div class="dbox w-100 d-flex align-items-center">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                             
-                                <BsPhone className='icons-contact'/>
-                            </div>
-                            <div class="text pl-3">
-                            <p><span>Phone:</span> <br/><a href="tel://9100209909">+919100209909</a></p>
-                          </div>
-                      </div>
-                        <div class="dbox w-100 d-flex align-items-center">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                           
-                                <FiMail className='icons-contact'/>
-                            </div>
-                            <div class="text pl-3">
-                            <p><span>Email:</span> <a href="mailto:mrunalmahakala@duck.com">mrunalmahakala@duck.com</a></p>
-                          </div>
-                      </div>
-                        <div class="dbox w-100 d-flex align-items-center">
-                            <div class="icon d-flex align-items-center justify-content-center">
-                          
-                                <BsGlobe className='icons-contact'/>
-                            </div>
-                            <div class="text pl-3">
-                            <p><span>Website</span> <a href="#">https://mahakalamrunal.netlify.app/</a></p>
-                          </div>
-                      </div>
-                  </div> */}
-                        {/* </div> */}
                     </div>
                 </div>
             </div>
