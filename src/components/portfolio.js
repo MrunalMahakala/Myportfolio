@@ -8,7 +8,14 @@ import "../Css/portfolio.css"
 function Portfolio() {
   return (
     <div id="portfolio" className='portfolio'>
+    
         <h1>Portfolio</h1>
+        <div className='toggle_wrap'>
+            <div className='toggle_bar'>
+                  
+            </div>
+        </div>
+      
         <div className='portfolio-wrap'>
         <Projects img={Netflix_mockup} name="Netflix clone" demo="https://netflix-smallclone.netlify.app/"/>
         <Projects img={Netflix_mockup} name="Twitter clone" demo="https://tweetco-mrunal.netlify.app/"/>

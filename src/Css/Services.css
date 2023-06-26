@@ -16,7 +16,7 @@
     }
     .flex-3d{
         display: flex;
-        position: sticky;
+        position: relative;
         right: 0;
         flex: 0.6;
         perspective: 100rem;
@@ -213,18 +213,18 @@ flex-direction: column;
 .jaffa1{
   height: 100vh;
 display: flex;
-flex-direction: column;
+flex-direction: column-reverse;
 padding: 1vw;
 }
 .jaffa2{
   height: 100vh;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   padding: 1vw;
   }
 .flex-3d{
   display: flex;
-  position: sticky;
+  position: fixed;
   right: 0;
   flex: 0.6;
   perspective: 100rem;

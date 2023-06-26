@@ -1,9 +1,8 @@
 
-
 body{
   background: black;
   color: white;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family:'Roboto';
   /* font-family: sans-serif; */
 }
 /* header{
@@ -14,8 +13,8 @@ text-align: justify;
 align-items: center;
 } */
 .Logo{
-width: 10vw;
-height: 10vh;
+width: 13vw;
+height: 13vh;
 margin-top: 1%;
 margin-left: 3%;
 }
@@ -26,13 +25,13 @@ color: #7B2BBA;
 font-size: 1.2rem;
 font-weight: bold;
 /* text-transform: uppercase; */
-
+cursor: pointer;
 }
 .nav {
 display: flex;
 justify-content: space-between;
 align-items: center;
-padding-top: 20px;
+/* padding-top: 20px; */
 }
 
 .hamburger {
@@ -50,24 +49,26 @@ border-radius: 100vw;
 }
 
 .nav__link {
-position: fixed;
+position:static;
 width: 94%;
-top: 5rem;
-left: 18px;
+
 /* background-color: lightblue; */
 }
 
 .nav__link a {
-display: block;
+/* display: block; */
 text-align: center;
 padding: 10px 0;
+top: 5rem;
+left: 18px;
 }
 
 .nav__link a:hover {
 text-decoration: none;
-border-bottom: 3px solid #7B2BBA;
-border-radius: 7px;
-transition: all 0.2s ease;
+border-bottom: 2px solid #9b62c7;
+color: #c38bee;
+/* border-radius: 5px; */
+/* transition: all 0.6s ease; */
 }
 
 .hide {
@@ -97,10 +98,7 @@ font-family: sans-serif;
 }
 
 .nav__link a {
-  display: inline-block;
-  padding: 15px 20px;
-
-
+  margin-right: 20px;
 }
 
 .hamburger {
