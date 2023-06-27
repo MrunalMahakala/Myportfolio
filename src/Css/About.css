@@ -65,8 +65,8 @@ border-radius: 5px;
     
       .image-about img {
        
-        height: 364px;
-        width: 364px;
+        height: 300px;
+        width: 300px;
         
         border-radius: 50%;
         object-fit: cover;
@@ -81,14 +81,14 @@ border-radius: 5px;
     }
   
     .text-about h1 {
-      font-size: max(2vw, 24px);
+      font-size: max(1.8vw, 24px);
       color: #7B2BBA;
       text-align: center;
     }
   
     .text-about p {
         text-indent: 5vw;
-      font-size: max(1.2vw, 16px);
+      font-size: max(1vw, 16px);
       text-align: start;
     }
   }

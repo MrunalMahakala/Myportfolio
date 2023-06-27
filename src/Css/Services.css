@@ -1,7 +1,7 @@
 
 .grid-container{
     
-        height: 150vh;
+        height: 100vh;
         display: flex;
      flex-direction: column;
         justify-content: space-between;
@@ -12,7 +12,7 @@
     .jaffa{
       display: flex;
       flex-direction: row;
-      padding: 1vw 0vw 10vw 0vw;
+      padding: 10vw 0vw 10vw 0vw;
     }
     .flex-3d{
         display: flex;
@@ -20,7 +20,7 @@
         right: 0;
         flex: 0.6;
         perspective: 100rem;
-        /* position: relative; */
+      
         align-items: center;
         align-content: center;
     
@@ -200,35 +200,36 @@
   
 .grid-container{
     
-  height: 175vh;
+  height: 100vh;
   display: flex;
 flex-direction: column;
   justify-content: space-around;
   /* grid-template-columns: 40% 60%; */
   /* gap: 1vw; */
   margin-right:1vw;
-  margin-bottom:10vw;
+  margin-top: 10vw;
+  /* margin-bottom:10vw; */
   transition: all 700ms ease-in;
 }
 .jaffa1{
-  height: 100vh;
+  height: 50vh;
 display: flex;
 flex-direction: column-reverse;
 padding: 1vw;
 }
 .jaffa2{
-  height: 100vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   padding: 1vw;
   }
 .flex-3d{
   display: flex;
-  position: fixed;
+ 
   right: 0;
   flex: 0.6;
   perspective: 100rem;
-  /* position: relative; */
+  position: relative;
   align-items: center;
   align-content: center;
 

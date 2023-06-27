@@ -37,9 +37,15 @@ footer{
     flex-direction: column;
 
 }
-
+.play-button{
+    height: 3vw;
+    width: 7vw;
+}
+.footer-space>h1>span{
+    color: #7B2BBA;
+}
 .social{
-    padding: 1vw;
+    padding: 2vw;
 }
 
 .footer-tabs{
@@ -55,14 +61,14 @@ footer{
 }
 .footer-linked-in{
     color: #ffffff;
-    height: 4vh;
-    width: 4vw;
+    height: 2rem;
+    width: 2rem;
     background-image: url("https://www.linkedin.com/in/mrunalreddy")
 }
 .footer-github{
     color: #ffffff;
-    height: 4vh;
-    width: 4vw;
+    height: 2rem;
+    width: 2rem;
     background-image: url("https://github.com/MrunalMahakala")
 }
 
@@ -70,4 +76,34 @@ footer{
     transform: scale(1.1);
     cursor: pointer;
     color: #7B2BBA;
+}
+
+
+@media (max-width: 768px) {
+.footer-menu{
+    display: none;
+}
+.footer-social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-button{
+    height: 2rem;
+    width: 5rem;
+  
+}
+
+.footer-space{
+    padding: 2vw;
+}
+.footer-space>h1{
+    font-size: max(2.1vw,24px);
+}
 }
