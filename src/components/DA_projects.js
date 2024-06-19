@@ -3,20 +3,10 @@ import React, { useState } from 'react';
 
 import {BsCodeSlash} from 'react-icons/bs'
 import "../Css/DA_projects.css"
-import Modal from './DA_proj_model'
+
 
 function DA_projects(props) {
-// code for onclick popup
-// const [showModal, setShowModal] = useState(false);
 
-// const handleOpenModal = () => {
-//     setShowModal(true);
-  
-// };
-// const handleCloseModal = () => {
-//     setShowModal(false);
-  
-// };
 
   return (
     <div className='DA_project' >
@@ -34,14 +24,7 @@ function DA_projects(props) {
               
             </a>
         </div>
-        {/* <Modal 
-       
-        show={showModal}
-        onClose={handleCloseModal}
-        title={props.name}
-        description={props.description}
-        source_code={props.source_code}
-      /> */}
+    
  
     </div>
   )

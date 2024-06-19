@@ -1,8 +1,6 @@
 import React from 'react'
 import "../Css/Contact.css"
-import {BsTelephone,BsGlobe, BsPhone} from 'react-icons/bs'
-import {FiMail} from 'react-icons/fi'
-import {FaAddressCard, FaRegAddressCard} from 'react-icons/fa'
+
 
 
 function Contact() {
@@ -17,7 +15,7 @@ function Contact() {
                         <div class="col-md-6 d-flex align-items-stretch">
                             <div class="contact-wrap w-100 p-md-5 p-4 py-5">
                                 <h3 class="mb-4">Write To Me</h3>
-                                {/* <div id="form-message-warning" class="mb-4"></div>  */}
+                               
                           <div id="form-message-success" class="mb-4">
                                     Your message was sent, thank you!
                           </div>
