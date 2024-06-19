@@ -3,13 +3,32 @@ import "../Css/Footer.css"
 import {FaLinkedinIn,FaGithub} from 'react-icons/fa'
 
 function Footer() {
+  const gameLinks = [
+    "https://play2048.co/",
+    "http://flappybird.io/",
+    "https://tetris.com/play-tetris",
+    "https://playsnake.org/",
+    "https://agar.io/",
+    "https://orteil.dashnet.org/cookieclicker/",
+    "https://www.google.com/logos/2010/pacman10-i.html",
+    "https://www.solitr.com/",
+    "https://minesweeperonline.com/",
+    "https://sudoku.com/"
+  ];
+
+
+  const openRandomGameLink = () => {
+    const randomIndex = Math.floor(Math.random() * gameLinks.length);
+    const randomLink = gameLinks[randomIndex];
+    window.open(randomLink, "_blank");
+  };
   return (
     <div className="footer">
     <footer >
       <div className='footer-wrap'>
          <div className='footer-space'>
         <h1>Feeling Bored? <br/> Want to<span> play a Game..</span></h1>
-        <button className="play-button" onClick={{}}>play</button>
+        <button className="play-button" onClick={openRandomGameLink}>play</button>
         </div>
         
         <div className='footer-menu'>

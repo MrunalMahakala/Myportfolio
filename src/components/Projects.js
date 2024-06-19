@@ -12,6 +12,7 @@ function Projects(props) {
           <img className="project-img" src={props.img} alt="Netflix mockup"/>        
      
         <h2 className='project-name'>{props.name}</h2>
+        
         <div className='demo'>
             <a className='demo-link' href={props.demo}>
                 <RiCompass3Line className="demo_img"/>
